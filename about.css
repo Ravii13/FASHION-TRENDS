@@ -1,0 +1,52 @@
+header{
+    background-image: url("aboutback.jpg");
+    background-size: cover;
+    height:720px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative;
+}
+.heading{
+    font-size: 50px;
+    margin-top: 33px;
+    text-shadow: 2px 2px 5px rgba(0,0,0, 1);
+    margin-bottom: 15px;
+}
+.aboutinfo{
+    font-size: 20px;
+    padding: 50px;
+    height: 400px;
+    justify-items: center;
+    text-shadow: 2px 2px 5px rgba(0,0,0, 1);
+    border: 2px solid gray;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.204);
+    text-align: justify;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutinfo img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    color: #ffffff;
+    background-color: rgb(167, 140, 140);
+    width: 90px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 6px;
+    text-align: center;
+}
